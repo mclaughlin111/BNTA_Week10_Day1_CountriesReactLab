@@ -5,6 +5,7 @@ const CountryContainer = () => {
   //create country useState
   const [countriesToVisit, setCountriesToVisit] = useState([]); // could have initiliased to be empty array
   const [visitedCountries, setVisitedCountries] = useState([]); // could have initiliased to be empty array
+  
 const markCountryAsVisited = (country) => {
   const updatedCountriesToVisit = [...countriesToVisit];
   const updatedVisitedCountries = [...visitedCountries];
